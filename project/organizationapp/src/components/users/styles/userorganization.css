@@ -1,0 +1,181 @@
+/* NON-MOBILE */
+/* stylesheet for userorganization && entrycontainer */
+/*userorganization styles*/
+.mainContainerStyle {
+    overflow: hidden;
+    background-color: #eee;
+    font-style: arial;
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+}
+
+.topContainerStyle {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    background-color: white;
+    border-bottom: solid 2px #eee;
+    padding: 5px;
+}
+.topButtonStyle {
+    cursor: pointer;
+    outline: 0;
+    border: none;
+    box-shadow: none;
+    font-size: 15px;
+    color: #5d8fc0;
+}
+
+.innerContainerStyle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    background-color: white;
+    height: 200px;
+    border-bottom: solid 2px #eee;
+    padding: 20px;
+}
+
+.formContainerStyle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    background-color: white;
+    height: 125px;
+    margin: auto;
+}
+
+.addUserContainerStyle {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputStyle {
+    border-radius: 3px;
+    border-color: #eee;
+    border-width: 2px;
+    outline: 0;
+    width: 200px;
+    margin-right: 10px;
+    padding: 3px;
+    box-shadow: none;
+    font-size: 17px;
+    color: black;
+}
+
+.submitButtonStyle {
+    background-color: transparent;
+    border-width: 2px;
+    border-radius: 3px;
+    border-color: #5d8fc0;
+    outline: 0;
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 5px;
+    box-shadow: none;
+    font-size: 15px;
+    color: #5d8fc0;
+    width: 200px;
+}
+
+.descriptionContainerStyle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: white;
+    border-bottom: solid 2px #eee;
+    height: 20px;
+    padding: 10px;
+    font-size: 15px;
+    color: #5d8fc0;
+}
+
+/*entrycontainer styles*/
+.entryContainerStyle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+    max-width: 900px;
+    height: 70px;
+    margin: 2px auto;
+    padding: 10px;
+}
+.hoverEntryContainerStyle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+    max-width: 950px;
+    height: 80px;
+    margin: 2px auto;
+    padding: 10px;
+    position: relative;
+    transition: all .4s ease-in-out;
+}
+
+.entryInputStyle {
+    background-color: transparent;
+    border: none;
+    outline: 0;
+    padding: 5px;
+    box-shadow: none;
+    font-size: 20px;
+    color: inherit;
+    text-align: center;
+}
+.hoverEntryInputStyle {
+    outline: 0;
+    padding: 5px;
+    font-size: 20px;
+    color: inherit;
+    transition: all .4s ease-in-out;
+    text-align: center;
+}
+
+.entryButtonStyle {
+    background-color: transparent;
+    border-width: 2px;
+    border-radius: 3px;
+    border-color: #5d8fc0;
+    outline: 0;
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 5px;
+    box-shadow: none;
+    font-size: 15px;
+    color: #5d8fc0;
+}
+
+.noStyle {
+    display: none;
+}
+.deleteButtonStyle {
+    display: block;
+    transition: all .4s ease-in-out;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    left: 3px;
+    cursor: pointer;
+    color: #5d8fc0;
+}
+
+/* MOBILE */
