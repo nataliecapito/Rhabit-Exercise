@@ -1,4 +1,6 @@
 # Rhabit-Exercise
+- Job interview assignment for Rhabit company.
+
 ## Description
 "Web-API and a simple front-end experience that allows users to create, read, update, and destroy organizational relationship data that would be used to build an organizational chart." Take home technical assignment for company Rhabit, to be worked on from 3.25.18 to 3.28.18.
 
@@ -53,9 +55,9 @@ and all of their direct reports (as a  nested  JSON object).
 ## Ruby version
 - 5.1.3
 
-## Example Images
+## Example Images (03/28/18)
 | O.P | Panel | |
 | --- | --- | --- |
 | `PC/MAC` | Exercise Main | ![Rhabit-Exercise-Preview](public/images/preview_images/rhabit_preview.png) |
 
-### Updated: 4/16/18
+### Updated: 03/28/18
